@@ -65,7 +65,7 @@ foreach ($sitenames as $docroot => $title) {
 	
 	$docroot_uptime = (100 - ($minutes / $minutes_last_month * 100));
 	
-	$sla_environments[] = array(
+	$uptime_environments[] = array(
 		'title' => $title,
 		'link' => $url,
 		'docroot' => $docroot,
